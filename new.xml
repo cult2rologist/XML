@@ -1,0 +1,21 @@
+<Tales_about_me>
+	<Name>
+		<firstname>Ilya</firstname>
+		<lastname>Mckay</lastname>
+	</Name>
+	<age>33</age>
+	<Pets> 
+		<species="Dog" number="1" petname="Tyler"/>
+	</Pets>
+	<Desiredsalary>
+	<currency="USD"/>
+		<Period>
+			<Month>
+				<amount="10000"/>
+			</Month>
+			<Year>
+				<amount="150000"/>
+			<Year>
+		</Period>
+	</Desiredsalary>
+</Tales_about_me>
