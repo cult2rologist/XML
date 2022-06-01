@@ -1,0 +1,17 @@
+<Title>Resizing Pointers Are Inside the Widget</Title>
+<Risks Severity="Minor" Priority="Medium"/>
+<Environment> 
+	<manuf>Honor</manuf>
+	<model>20</model>
+	<os>=Android</os>
+	<osVersion>10</osVersion>
+	<osShell>Magic IU</osShell>
+	<osShellVersion>4.0.0.170</osShellVersion>
+</Environment>
+<Precondition>Install the app AndroidGridTest</Precondition>
+<STR>
+	<STR1>open application</STR1> 
+	<STR2>long tap widget AndroidGridTest</STR2>
+	<STR3>resize widget</STR3>
+</STR>
+<Result actual="Widget size changed" expected="No widget size changed"/>
